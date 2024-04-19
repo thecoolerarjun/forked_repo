@@ -8,10 +8,10 @@ div {
 	background-color: magenta;
 }
 
-#content div {
-	background-color: cyan;
-}
-
 #content p {
 	color: red;
+}
+
+div#content {
+	background-color: cyan;
 }
