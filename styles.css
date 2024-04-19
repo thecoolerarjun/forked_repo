@@ -1,0 +1,17 @@
+p {
+	color: blue;
+	font-family: arial;
+	font-size: 11px;
+}
+
+#content div {
+	background-color: cyan;
+}
+
+#content p {
+	color: red;
+}
+
+div {
+	background-color: magenta;
+}
