@@ -15,9 +15,29 @@
 	<div id="script_div">
 		<p id="script_p"></p>
 	</div>
-	<script>
-		document.getElementById('script_div').querySelector('#script_p').innerHTML='script text';
-		localStorage.var='sample text';
+	<script type="module">
+	  // Import the functions you need from the SDKs you need
+	  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+	  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js";
+	  // TODO: Add SDKs for Firebase products that you want to use
+	  // https://firebase.google.com/docs/web/setup#available-libraries
+
+	  // Your web app's Firebase configuration
+	  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	  const firebaseConfig = {
+	    apiKey: "AIzaSyDK0Fq0T8XCfMNmY_PDilDwdmKJCkooDWs",
+	    authDomain: "db-name-643a3.firebaseapp.com",
+	    databaseURL: "https://db-name-643a3-default-rtdb.firebaseio.com",
+	    projectId: "db-name-643a3",
+	    storageBucket: "db-name-643a3.appspot.com",
+	    messagingSenderId: "603580025766",
+	    appId: "1:603580025766:web:d963d9d1b246e125509d67",
+	    measurementId: "G-5Q95QF2W63"
+	  };
+
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	  const analytics = getAnalytics(app);
 	</script>
 </body>
 </html>
