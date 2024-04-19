@@ -6,11 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
+	<script>
+		document.getElementById('script_div').getElementById('script_p').innerHTML='script text';
+	</script>
 	<div id="content">
 		<p>sample text</p>
 	</div>
 	<div>
 		<p>non-content</p>
+	</div>
+	<div id="script_div">
+		<p id="script_p"></p>
 	</div>
 </body>
 </html>
