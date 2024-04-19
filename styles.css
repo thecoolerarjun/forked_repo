@@ -4,14 +4,14 @@ p {
 	font-size: 11px;
 }
 
-div#content {
+div {
+	background-color: magenta;
+}
+
+#content div {
 	background-color: cyan;
 }
 
 #content p {
 	color: red;
-}
-
-div {
-	background-color: magenta;
 }
